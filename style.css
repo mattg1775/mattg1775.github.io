@@ -1,31 +1,54 @@
+@charset "UTF-8";
 body {
+  font-family: sans-serif;
+  font-size: 12pt;
+  line-height: normal;
+  color: #6a6a6a
   margin-top: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgba(192, 200, 255, 0.66);
 }
-.navbar-inverse .navbar-brand {
-font-family: 'Bungee Shade', cursive;
-  font-size: 36px;
-  color: #ff3061;
-  padding-top: 20px;
-}
-h1.title {
-  padding: 0 30px 30px 0;
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 60px;
+  color: #fff
+  text-shadow: 2px 2px 2px #aaa;
+  text-decoration: none;
+  margin-bottom: 0pt
 }
 h2 {
-  font-size: 22px;
+  font-family: 'Syncopate', sans-serif;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px #aaa;
+  margin-top: 2pt
 }
-.rating {
-  font-size: 0.4em;
-  text-transform: uppercase;
-  border: 1px solid #ccc;
-  padding: 4px;
-  vertical-align: middle;
+h5 {
+  font-family: 'Montserrat', serif;
+  font-size: 14px;
+  text-shadow: 2px 2px 2px #fff;
 }
-.summary h2, .actors h2 {
-  margin-top: 0;
+li {
+  list-style-type:disc;
 }
-.actors li {
-  line-height: 24px;
+body footer li a{
+  display: inline-flex;
+  text-decoration: none;
+  color: #fff;
+  padding: 6pt;
+  background-color: blue;
 }
-.review {
-  margin-bottom: 30px;
+li a:hover{
+  color: #fff;
+  background-color: #999999;
+}
+aside {
+  align-content: center;
+  height: 100px;
+  width: 480px;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
