@@ -28,27 +28,19 @@ h5 {
   font-size: 14px;
   text-shadow: 2px 2px 2px #fff;
 }
-li {
-  list-style-type:disc;
-}
-body footer li a{
-  display: inline-flex;
-  text-decoration: none;
-  color: #fff;
-  padding: 6pt;
-  background-color: blue;
-}
-li a:hover{
-  color: #fff;
-  background-color: #999999;
-}
 aside {
   align-content: center;
   height: 100px;
   width: 480px;
-
 }
 img {
     max-width: 100%;
     height: auto;
+}
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
